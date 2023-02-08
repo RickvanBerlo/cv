@@ -3,7 +3,7 @@ import Header from '../components/headers/parallaxHeader';
 import AboutMeSection from '../components/personalPageSections/aboutMeSection';
 import Footer from '../components/footers/personalPageFooter';
 import languageSelector from '../utils/languageSelector';
-import personalInformation from '../constants/texts/ personalInformation';
+import personalInformation from '../constants/texts/personalInformation';
 import TopNavbar from '../components/navbars/topNavbar';
 import CurriculemVitaeSection from '../components/personalPageSections/curriculemVitaeSection';
 import { ParallaxProvider } from 'react-scroll-parallax';

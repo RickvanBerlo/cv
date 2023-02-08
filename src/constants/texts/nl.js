@@ -1,4 +1,4 @@
-import personalInformation from './ personalInformation';
+import personalInformation from './personalInformation';
 
 const NL = {
     GENERAL_INFORMATION: "Algemene informatie",
