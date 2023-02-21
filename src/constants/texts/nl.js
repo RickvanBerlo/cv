@@ -19,7 +19,7 @@ const NL = {
     ABOUT: {
         TITLE: "Over mij",
         DESCRIPTION:
-            `De ICT-sector heeft mij van kleins af aan geïnteresseerd. Ik zag hoe ICT de wereld aan het veranderen was en  ik wilde hier graag een steentje aan bijdragen. Met deze motivatie ben ik in de ICT-sector gedoken.
+            `De ICT-sector heeft mij van kleins af aan geïnteresseerd. Ik zag hoe ICT de wereld aan het veranderen was en ik wilde hier graag een steentje aan bijdragen. Met deze motivatie ben ik in de ICT-sector gedoken.
 
             Als eerste heb ik een systeembeheerders opleiding gevolgd in Nijmegen. Hierin heb ik vaardigheden geleerd zoals: Het configureren en beheren van servers, omgaan met klantencontact en het configureren van netwerken.
             Tijdens deze opleiding heb ik ook mijn eerste ervaring gehad met programmeren. Door deze ervaring wist ik al snel dat ik een programmeur wilde worden en ben ik na het afronden van deze opleiding een HBO informatica opleiding gestart.
@@ -37,18 +37,31 @@ const NL = {
             SECTIONS: [
                 {
                     TITLE: "First8",
-                    SUBTITLE: "Junior software Developer",
+                    SUBTITLE: "Medior software Developer",
                     DATE: "Juli 2020 / Heden",
                     DESCRIPTION:
-                        `Dit is mijn eerste voltijd baan. Hier ben ik bezig met het programmeren van verschillende applicaties in de programeertaal Java.`,
+                        `Het is een java huis die zijn werknemers detacheerd naar andere bedrijven. op deze manier zorgt first8 ervoor dat wij als programmeurs toffe projecten kunnen bijwonen en dat wij all round geschoold zijn.`,
+                },
+                {
+                    TITLE: "Belastingdienst",
+                    SUBTITLE: "E-commerce",
+                    DATE: "Juli 2021 / Heden",
+                    DESCRIPTION:
+                        `Tijdens dit project worden mijn werkzamenheden ingezet voor de ontwikkeling aan de omzetbelasting logistieke ondersteuning. Het project zorgt ervoor dat de belasting kan communiceren met alle EU-lidstaten om de gegevens van diverse werkgevers in goede banen te lijden.`,
+                },
+                {
+                    TITLE: "NS",
+                    SUBTITLE: "DSM",
+                    DATE: "September 2020 / Januari  2022",
+                    DESCRIPTION:
+                        `Het Dienst en Stations Middelen applicatie geeft de NS de mogelijkheid om in een oog opslag te zien waar alle poortjes, liften, trappen, spoorlijnen te zien zijn.`,
                 },
                 {
                     TITLE: "Student aan Huis",
                     SUBTITLE: "Thuis service medewerker",
                     DATE: "Mei 2016 / Juni 2019",
                     DESCRIPTION:
-                        `Tijdens deze baan help je klanten van Student aan Huis met computer problemen.
-                    Geen enkele afspraak is hetzelfde waardoor je als werknemer zeer vindingrijk moet zijn om alle problemen op te kunnen lossen.`,
+                        `Het geeft studenten die in de ICT-sector zitten een kans om mensen met minder kennis te helpen om verschillende computer problemen op te lossen.`,
                 },
             ]
         },
@@ -79,7 +92,7 @@ const NL = {
                 {
                     TITLE: "Bluenotion",
                     SUBTITLE: "Programmeur",
-                    DATE: "September-2019 / Januari 2020",
+                    DATE: "September 2019 / Januari 2020",
                     DESCRIPTION:
                         `Bij Bluenotion heb ik mijn afstudeerstage van het HBO volbracht. 
                     Als afstudeeropdracht heb ik samen met mijn afstudeerpartner een app gemaakt voor een externe partij. De app geeft het bedrijf de mogelijkheid om een plattegrond te creëren van een desbetreffende ruimte. Deze functionaliteit is gemaakt met behulp van Augmented Reality.`
@@ -100,21 +113,61 @@ const NL = {
                 },
             ]
         },
+        CERTIFICATE: {
+            CATEGORY: "Certificate",
+            SECTIONS: [
+                {
+                    TITLE: "Oracle Certified Professional",
+                    SUBTITLE: "Java",
+                    DATE: "2023",
+                },
+                {
+                    TITLE: "PSM1",
+                    SUBTITLE: "Scrum master",
+                    DATE: "2021",
+                },
+                {
+                    TITLE: "Oracle Certified Associate",
+                    SUBTITLE: "Java",
+                    DATE: "2021",
+                },
+            ]
+        },
         PROJECT: {
             CATEGORY: "Project",
             SECTIONS: [
                 {
+                    TITLE: "PartyGames",
+                    SUBTITLE: "Vue, Quarkus",
+                    DESCRIPTION:
+                        `Deze applicatie doet inspiratie op van de bingo en breid hier op uit. het brengt mensen samen via een web applicatie om een party/quiz te spelen met verschillende type vragen.
+                    `,
+                    LINKS:
+                        [
+                            { NAME: "WIP", LINK: "https://media.istockphoto.com/id/1317820316/photo/road-sign-work-in-progress.jpg?s=612x612&w=0&k=20&c=Q-hMIne8cDU8KPPi_UHotNczP-fKpec5eYjKNQ87-kQ=" },
+                        ],
+                },
+                {
+                    TITLE: "Bingo",
+                    SUBTITLE: "Vue, Spring boot",
+                    DESCRIPTION:
+                        `Dit is een bingo applicatie die gebruikt is door first8 voor het event J-Fall. De web applicatie laat mensen gezamelijk een bingo potje spelen over websockets.
+                    `,
+                    LINKS:
+                        [
+                            { NAME: "Bingo", LINK: "https://game.first8.nl/#/lobby" },
+                        ],
+                },
+                {
                     TITLE: "Mercury",
-                    SUBTITLE: "React",
+                    SUBTITLE: "React, Spring boot",
                     DESCRIPTION:
                         `Mercury bevat een office omgeving waar de gebruiker een agenda kan beheren, notities in aan kan maken, bestanden in kan opslaan en todo taken kan aanmaken voor zichzelf.
                         Deze omgeving is beveiligd door een Oauth2 implementatie.
                     `,
                     LINKS:
                         [
-                            { NAME: "Web", LINK: "https://github.com/RickvanBerlo/Mercury_Web" },
-                            // { NAME: "App", LINK: "https://github.com/RickvanBerlo/Mercury_App" },
-                            // { NAME: "Api", LINK: "https://github.com/RickvanBerlo/Mercury_Api" },
+                            { NAME: "github", LINK: "https://github.com/RickvanBerlo/Mercury" },
                         ],
                 },
             ]
@@ -123,16 +176,20 @@ const NL = {
             CATEGORY: "Ervaring",
             SECTIONS: [
                 {
-                    TITLE: "C-Sharp",
-                    PERCENTAGE: "65%",
+                    TITLE: "Java",
+                    PERCENTAGE: "80%",
                 },
                 {
-                    TITLE: "Java",
-                    PERCENTAGE: "60%",
+                    TITLE: "C-Sharp",
+                    PERCENTAGE: "50%",
                 },
                 {
                     TITLE: "Javascript",
-                    PERCENTAGE: "65%",
+                    PERCENTAGE: "85%",
+                },
+                {
+                    TITLE: "TypeScript",
+                    PERCENTAGE: "80%",
                 },
                 {
                     TITLE: "C++",
@@ -140,15 +197,31 @@ const NL = {
                 },
                 {
                     TITLE: "SQL",
-                    PERCENTAGE: "55%",
+                    PERCENTAGE: "65%",
                 },
                 {
                     TITLE: "Css",
-                    PERCENTAGE: "60%"
+                    PERCENTAGE: "80%"
                 },
                 {
                     TITLE: "Html",
-                    PERCENTAGE: "60%"
+                    PERCENTAGE: "85%"
+                },
+                {
+                    TITLE: "Spring boot",
+                    PERCENTAGE: "65%"
+                },
+                {
+                    TITLE: "Quarkus",
+                    PERCENTAGE: "55%"
+                },
+                {
+                    TITLE: "OpenShift",
+                    PERCENTAGE: "45%"
+                },
+                {
+                    TITLE: "Docker",
+                    PERCENTAGE: "80%"
                 }
             ]
         },
